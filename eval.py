@@ -13,7 +13,7 @@ then filter output based on threshold
 
 
 def main():
-    thresholds = [0.05 * i for i in range(1, 400, 2)]
+    thresholds = [0.005 * i for i in range(1, 200, 2)]
     missed = [0] * len(thresholds)
     exact = [0] * len(thresholds)
     prefix_exact = [0] * len(thresholds)
@@ -34,17 +34,25 @@ def main():
             query = query.strip()
             if query != "\t".join(["-"] * 5):
                 x, y, pred, cost, subword_len = query.split("\t")
+                x = x.lower()
+                y = y.lower()
+                pred = pred.lower()
+                y = y.strip()
+                pred = pred.strip()
+                #print(f"{x}\t{y}\t{pred}\t{cost}")
                 cost = float(cost)
                 subword_len = int(subword_len)
             for i, threshold in enumerate(thresholds):
                 if query == "\t".join(["-"] * 5):
                     missed[i] += 1
                     continue
-                if cost / subword_len < threshold:
+                if cost > threshold:
                     if pred == y:
+                        #print("hello", len(pred))
                         exact[i] += 1
                         matched_length[i] += len(y)
-                    if y.startswith(pred) and (len(pred) > 1):
+                    if y.startswith(pred) and (len(pred) > 0):
+                        #print("bye", len(pred))
                         prefix_exact[i] += 1
                         prefix_matched_length[i] += len(pred)
                         if len(pred) == 0:

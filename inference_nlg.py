@@ -9,7 +9,7 @@ import argparse
 import os
 import random
 
-print("PROCESS STARTED")
+#print("PROCESS STARTED")
 
 # Initialise wandb
 
@@ -18,7 +18,7 @@ print("PROCESS STARTED")
 # use GPU
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print("Using device:", device)
+#print("Using device:", device)
 
 # create custom dataset for Training
 
@@ -108,25 +108,28 @@ def main(args):
         model.eval()
         with torch.no_grad():
             input_ids = tokenizer.encode(text, return_tensors="pt").to(device)
-
+            
+            pad_token_id = tokenizer.pad_token_id
+            decoder_input_ids = torch.full((input_ids.shape[0], 1), pad_token_id, dtype=torch.long, device=input_ids.device)
+            
             # Prepare output probabilities list
             output_probs = []
 
-            # Prepare first input for generation
-            curr_input_ids = input_ids
-
             for _ in range(max_length):
                 # Get logits for the next token
-                outputs = model(curr_input_ids, return_dict=True)
+                outputs = model(input_ids=input_ids, decoder_input_ids=decoder_input_ids, return_dict=True)
+                #print(outputs)
                 next_token_logits = outputs.logits[:, -1, :]
 
                 # Apply top-p filtering
                 sorted_logits, sorted_indices = torch.sort(
                     next_token_logits, descending=True
                 )
+            
                 cumulative_probs = torch.cumsum(
                     torch.nn.functional.softmax(sorted_logits, dim=-1), dim=-1
                 )
+
                 sorted_indices_to_remove = cumulative_probs > top_p
                 sorted_indices_to_remove[..., 1:] = sorted_indices_to_remove[
                     ..., :-1
@@ -138,23 +141,20 @@ def main(args):
 
                 # Sample the next token
                 probs = torch.nn.functional.softmax(next_token_logits, dim=-1)
+
                 next_token = torch.multinomial(probs, num_samples=1)
+                decoder_input_ids = torch.cat([decoder_input_ids, next_token], dim=1)
 
                 # Save the probability of the chosen token
                 chosen_prob = probs[0, next_token].item()
                 output_probs.append(chosen_prob)
-
-                # Append the new token to the input
-                curr_input_ids = torch.cat(
-                    [curr_input_ids, next_token.unsqueeze(-1)], dim=-1
-                )
 
                 # Stop if the model generates the end of sequence token
                 if next_token == tokenizer.eos_token_id:
                     break
 
             # Decode the output sequence
-            output_text = tokenizer.decode(curr_input_ids[0], skip_special_tokens=True)
+            output_text = tokenizer.decode(decoder_input_ids[0], skip_special_tokens=True)
             return output_text, output_probs
 
     # Load pre-trained model and tokenizer
@@ -165,7 +165,15 @@ def main(args):
     model, _ = load_model_from_checkpoint(args.model_dir, model)
     model.to(device)
 
-    print("STARTING INFERENCING")
+    #print("STARTING INFERENCING")
+
+    def generate_completion(model, tokenizer, text, max_length=50):
+        model.eval()
+        with torch.no_grad():
+            input_ids = tokenizer.encode(text, return_tensors="pt").to("cuda")
+            output_ids = model.generate(input_ids, max_length=max_length)
+
+            return tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
     def process_sentences(sentences, model, tokenizer):
         for sentence in sentences:
@@ -174,7 +182,9 @@ def main(args):
                 split_index = random.randint(1, len(sentence))  # Random split point
                 input_part = sentence[:split_index]
                 ground_truth = sentence[split_index:]
-
+                #output_text = generate_completion(model, tokenizer, input_part)
+                #print(input_part,"\t", ground_truth, "\t", output_text)
+                
                 # Generate completion and probabilities
                 output_text, output_probs = generate_completion_with_top_p(
                     model, tokenizer, input_part
@@ -184,8 +194,8 @@ def main(args):
                 avg_prob = sum(output_probs) / len(output_probs) if output_probs else 0
 
                 # Print the required information
-                print(input_part, ground_truth, output_text, avg_prob, 1)
-
+                print(f"{input_part}\t{ground_truth}\t{output_text}\t{ avg_prob}\t{1}")
+                
     process_sentences(sentences, model, tokenizer)
 
 
