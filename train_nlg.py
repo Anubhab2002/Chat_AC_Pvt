@@ -9,6 +9,8 @@ import argparse
 import os
 import wandb
 
+print("PROCESS STARTED")
+
 # Initialise wandb
 
 wandb.init(project="t5_chat_autocompletion", entity="anu2002")
@@ -24,7 +26,15 @@ class AutocompleteDataset(Dataset):
     def __init__(self, tokenizer, sentences, max_length=512):
         self.tokenizer = tokenizer
         self.pairs = []
+        
         for sentence in sentences:
+            input_text = sentence[:2*len(sentence)//3]
+            target_text = sentence[2*len(sentence)//3:]
+
+            input_encoded = tokenizer(input_text, padding="max_length", max_length=max_length, truncation=True, return_tensors='pt')
+            target_encoded = tokenizer(target_text, padding='max_length', max_length=max_length, truncation=True, return_tensors='pt')
+            self.pairs.append((input_encoded, target_encoded))
+            '''
             words = sentence.split()
             for i in range(1, len(words)):
                 input_text = ' '.join(words[:i])
@@ -32,6 +42,7 @@ class AutocompleteDataset(Dataset):
                 input_encoded = tokenizer(input_text, padding='max_length', max_length=max_length, truncation=True, return_tensors="pt")
                 target_encoded = tokenizer(target_text, padding='max_length', max_length=max_length, truncation=True, return_tensors="pt")
                 self.pairs.append((input_encoded, target_encoded))
+            '''
 
     def __len__(self):
         return len(self.pairs)
@@ -45,10 +56,10 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--train_data', type=str)
     parser.add_argument('--model_dir', type=str)
-    parser.add_argument('--num_epochs', type=int, default='3')
-    parser.add_argument('--lr', type=int, default='1e-3')
+    parser.add_argument('--num_epochs', type=int, default=3)
+    parser.add_argument('--lr', type=int, default=1e-3)
     parser.add_argument('--val_data', type=str, default=None)
-    parser.add_argument('--bs',  type=int, default='4')
+    parser.add_argument('--bs',  type=int, default=4)
     args = parser.parse_args()
     return args
 
@@ -90,6 +101,7 @@ def main(args):
         os.makedirs(args.model_dir)
         print("The model directory is created!")
 
+    print("STARTING TRAINING")
     for epoch in range(args.num_epochs):
             # Training phase
             model.train()
@@ -113,12 +125,23 @@ def main(args):
                 loss.backward()
                 optimizer.step()
                 
-                if iterations%100 == 0:
+                if iterations%200 == 0:
+                    # Decode and print input text
+                    input_text = tokenizer.decode(input_ids[0], skip_special_tokens=True)
+                    print(f"Input Text (Epoch: {epoch}, Iteration {iterations}): {input_text}")
+                    
+                    # Generate model output and decode
+                    with torch.no_grad():
+                        model_output = model.generate(input_ids=input_ids, attention_mask=attention_mask, max_length=50)
+                        output_text = tokenizer.decode(model_output[0], skip_special_tokens=True)
+                        print(f"Model Output (Epoch: {epoch}, Iteration {iterations}): {output_text}")
+                    
                     wandb.log({
                         "training loss": loss.item(),
                         })
                 
                 total_train_loss += loss.item()
+                iterations = iterations + 1
 
             avg_train_loss = total_train_loss / len(dataloader)
 

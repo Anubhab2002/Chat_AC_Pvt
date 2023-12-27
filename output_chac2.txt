@@ -1,0 +1,532 @@
+PROCESS STARTED
+Using device: cuda
+total size of train dataset:  69216
+STARTING TRAINING
+Input Text (Epoch: 0, Iteration 0): Wait
+Model Output (Epoch: 0, Iteration 0): pay pay pay, pay pay pay, pay pay pay pay pay pay pay pay pay pay pay pay, pay pay pay, pay pay, pay pay pay pay, pay pay pay pay pay pay pay pay pay pay pay pay pay pay
+Input Text (Epoch: 0, Iteration 200): I wonder if there was
+Model Output (Epoch: 0, Iteration 200): es a lot of time
+Input Text (Epoch: 0, Iteration 400): You ’ re just 4 mao short for the hard sleeper, but I ’ ll
+Model Output (Epoch: 0, Iteration 400): o, o,, and,, o,,,,,
+Input Text (Epoch: 0, Iteration 600): About fifteen
+Model Output (Epoch: 0, Iteration 600): , please
+Input Text (Epoch: 0, Iteration 800): Have you ever had garli
+Model Output (Epoch: 0, Iteration 800): ss, or a tan tan, or a tanamy
+Input Text (Epoch: 0, Iteration 1000): It runs every 15 minutes. You mus
+Model Output (Epoch: 0, Iteration 1000): t have a look at the new one
+Input Text (Epoch: 0, Iteration 1200): It doesn't seem to b
+Model Output (Epoch: 0, Iteration 1200): e a problem
+Input Text (Epoch: 0, Iteration 1400): Are you se
+Model Output (Epoch: 0, Iteration 1400): ed
+Input Text (Epoch: 0, Iteration 1600): Everybody, I'd like to propose a toast to Mary Johnson, Teacher of the Year. She worked
+Model Output (Epoch: 0, Iteration 1600): e in the classroom for a long time, long-term term
+Input Text (Epoch: 0, Iteration 1800): Yes. I ’ ll take four shoulder chops and I ’
+Model Output (Epoch: 0, Iteration 1800): m a retender
+Input Text (Epoch: 0, Iteration 2000): Well, Ted, this is a very impressive resume. However, we do have several other applicants to finish interviewing before we can make a
+Model Output (Epoch: 0, Iteration 2000): re. We need to have a few more applicants
+Input Text (Epoch: 0, Iteration 2200): Oh, I just can't
+Model Output (Epoch: 0, Iteration 2200): eat it
+Input Text (Epoch: 0, Iteration 2400): What kinds of workshops are avai
+Model Output (Epoch: 0, Iteration 2400): able now
+Input Text (Epoch: 0, Iteration 2600): It was for my Mas
+Model Output (Epoch: 0, Iteration 2600): iday
+Input Text (Epoch: 0, Iteration 2800): In 1978. I went to co
+Model Output (Epoch: 0, Iteration 2800): ok a college
+Input Text (Epoch: 0, Iteration 3000): But they wouldn't lay you off! You are the most experienced
+Model Output (Epoch: 0, Iteration 3000): ed person in the world
+Input Text (Epoch: 0, Iteration 3200): True. T
+Model Output (Epoch: 0, Iteration 3200): hat is
+Input Text (Epoch: 0, Iteration 3400): Oh really what ’ s
+Model Output (Epoch: 0, Iteration 3400): he like
+Input Text (Epoch: 0, Iteration 3600): How often do you pl
+Model Output (Epoch: 0, Iteration 3600): iage your time
+Input Text (Epoch: 0, Iteration 3800): Just name it
+Model Output (Epoch: 0, Iteration 3800): , please
+Input Text (Epoch: 0, Iteration 4000): Isn't this the
+Model Output (Epoch: 0, Iteration 4000): problem
+Input Text (Epoch: 0, Iteration 4200): once in a while, I suppose, I usually rent
+Model Output (Epoch: 0, Iteration 4200): a house, but I don ’ t rent
+Input Text (Epoch: 0, Iteration 4400): Um...
+Model Output (Epoch: 0, Iteration 4400): ..
+Input Text (Epoch: 0, Iteration 4600): Thanks for c
+Model Output (Epoch: 0, Iteration 4600): ompy
+Input Text (Epoch: 0, Iteration 4800): I appreciate you t
+Model Output (Epoch: 0, Iteration 4800): oo get it
+Input Text (Epoch: 0, Iteration 5000): No. I'm thinking that maybe I can get
+Model Output (Epoch: 0, Iteration 5000): a job
+Input Text (Epoch: 0, Iteration 5200): Nothi
+Model Output (Epoch: 0, Iteration 5200): nk so
+Input Text (Epoch: 0, Iteration 5400): Really? How
+Model Output (Epoch: 0, Iteration 5400): 's it
+Input Text (Epoch: 0, Iteration 5600): Who is going to look after a
+Model Output (Epoch: 0, Iteration 5600): nd a new one
+Input Text (Epoch: 0, Iteration 5800): After I tried French food. Before that, I used to cook real
+Model Output (Epoch: 0, Iteration 5800): ly, I'm afraid I can't believe it
+Input Text (Epoch: 0, Iteration 6000): Oh, no. We just did i
+Model Output (Epoch: 0, Iteration 6000): s work
+Input Text (Epoch: 0, Iteration 6200): Oh, dear! There isn't a prob
+Model Output (Epoch: 0, Iteration 6200): ent answer
+Input Text (Epoch: 0, Iteration 6400): I teach En
+Model Output (Epoch: 0, Iteration 6400): dia
+Input Text (Epoch: 0, Iteration 6600): At 2 PM, give a presentation here with the press. At four o ’ clock sharp, have
+Model Output (Epoch: 0, Iteration 6600): a look at the news
+Input Text (Epoch: 0, Iteration 6800): It is in mine too.The biggest issue is water. The climate is dry and so
+Model Output (Epoch: 0, Iteration 6800): wet. It is so expensive
+Input Text (Epoch: 0, Iteration 7000): You have never gone to the Statue of Liberty?! I can't b
+Model Output (Epoch: 0, Iteration 7000): e a good friend! Is that right
+Input Text (Epoch: 0, Iteration 7200): Let me show you to the cashier's. It'
+Model Output (Epoch: 0, Iteration 7200): s a store..
+Input Text (Epoch: 0, Iteration 7400): Did you vote f
+Model Output (Epoch: 0, Iteration 7400): or me
+Input Text (Epoch: 0, Iteration 7600): Maybe you should try to quit smoking. You know it i
+Model Output (Epoch: 0, Iteration 7600): s a good idea for smoking
+Input Text (Epoch: 0, Iteration 7800): Can I help you with an
+Model Output (Epoch: 0, Iteration 7800): d some help
+Input Text (Epoch: 0, Iteration 8000): I don't entirely agre
+Model Output (Epoch: 0, Iteration 8000): e it, Mr. Smith
+Input Text (Epoch: 0, Iteration 8200): really? Are you sure this i
+Model Output (Epoch: 0, Iteration 8200): s all right
+Input Text (Epoch: 0, Iteration 8400): Wh
+Model Output (Epoch: 0, Iteration 8400): y
+Input Text (Epoch: 0, Iteration 8600): Don't be that n
+Model Output (Epoch: 0, Iteration 8600): oteed
+Input Text (Epoch: 0, Iteration 8800): You'd better prepare what you are going to say in advance, in order to hav
+Model Output (Epoch: 0, Iteration 8800): e a good day. I'm afraid you will be happy
+Input Text (Epoch: 0, Iteration 9000): So you guys should be
+Model Output (Epoch: 0, Iteration 9000): t to do so
+Input Text (Epoch: 0, Iteration 9200): Let's make sure we are on the same page. Do we want a f
+Model Output (Epoch: 0, Iteration 9200): rod, please
+Input Text (Epoch: 0, Iteration 9400): I knew some day I would be able to profit
+Model Output (Epoch: 0, Iteration 9400): a profit from it
+Input Text (Epoch: 0, Iteration 9600): Alright.
+Model Output (Epoch: 0, Iteration 9600): Thanks
+Input Text (Epoch: 0, Iteration 9800): There are three in my family, my parents and myself. My father is a
+Model Output (Epoch: 0, Iteration 9800): nd sister is a sa. Is that right
+Input Text (Epoch: 0, Iteration 10000): Sure, you can, but you ’ ll be
+Model Output (Epoch: 0, Iteration 10000): a bit nervous
+Input Text (Epoch: 0, Iteration 10200): Yes, can I he
+Model Output (Epoch: 0, Iteration 10200): re I go
+Input Text (Epoch: 0, Iteration 10400): Don't worry, time
+Model Output (Epoch: 0, Iteration 10400): isn't it
+Input Text (Epoch: 0, Iteration 10600): All right, al
+Model Output (Epoch: 0, Iteration 10600): l, please
+Input Text (Epoch: 0, Iteration 10800): You can list your education at the top, or choose your job experience t
+Model Output (Epoch: 0, Iteration 10800): o the job, or you can get a good job
+Input Text (Epoch: 0, Iteration 11000): Maybe I'll also have a try some day, but I'm afraid that it would b
+Model Output (Epoch: 0, Iteration 11000): e a lot of fun, but I'll be fine
+Input Text (Epoch: 0, Iteration 11200): Excuse me. I bought this just now and here's a receipt. I'm afraid I was s
+Model Output (Epoch: 0, Iteration 11200): omething. I'm sorry I'm sorry
+Input Text (Epoch: 0, Iteration 11400): Can I help in
+Model Output (Epoch: 0, Iteration 11400): tereested
+Input Text (Epoch: 0, Iteration 11600): I was wondering if you guys also
+Model Output (Epoch: 0, Iteration 11600): eat a lot of food
+Input Text (Epoch: 0, Iteration 11800): Sure. Here
+Model Output (Epoch: 0, Iteration 11800): is it
+Input Text (Epoch: 0, Iteration 12000): Oh, it ’ s not you. I just wa
+Model Output (Epoch: 0, Iteration 12000): nt to get a new job
+Input Text (Epoch: 0, Iteration 12200): Yes, I think so.Flight KL638 is still at the airp
+Model Output (Epoch: 0, Iteration 12200): .Is that possible for you
+Input Text (Epoch: 0, Iteration 12400): Yes, I
+Model Output (Epoch: 0, Iteration 12400): s
+Input Text (Epoch: 0, Iteration 12600): This is awkward, I know. I know you're upset. But in tw
+Model Output (Epoch: 0, Iteration 12600): hat, you'll be fine
+Input Text (Epoch: 0, Iteration 12800): Inbreeding is a big drawback from snitching most of their empl
+Model Output (Epoch: 0, Iteration 12800): essions. They are very good
+Input Text (Epoch: 0, Iteration 13000): Maybe just a quick sandwich, sala
+Model Output (Epoch: 0, Iteration 13000): l, or a sloppy sandwich
+Input Text (Epoch: 0, Iteration 13200): I'm sorry, sir. Just hold the line, please. Now the line
+Model Output (Epoch: 0, Iteration 13200): is a little late. I'm afraid of it
+Input Text (Epoch: 0, Iteration 13400): That's good to know. We'll watch
+Model Output (Epoch: 0, Iteration 13400): you then
+Input Text (Epoch: 0, Iteration 13600): yes, that's my only day off
+Model Output (Epoch: 0, Iteration 13600): . What about you
+Input Text (Epoch: 0, Iteration 13800): Oh yes, I loved it. Wasn't the scene w
+Model Output (Epoch: 0, Iteration 13800): rong before
+Input Text (Epoch: 0, Iteration 14000): May I order some cable fr
+Model Output (Epoch: 0, Iteration 14000): rom the TV
+Input Text (Epoch: 0, Iteration 14200): Yes I am. Nice to meet
+Model Output (Epoch: 0, Iteration 14200): you, sir
+Input Text (Epoch: 0, Iteration 14400): Then you may know that it
+Model Output (Epoch: 0, Iteration 14400): is a good idea
+Input Text (Epoch: 0, Iteration 14600): Deutsche Bank. It was 25,0
+Model Output (Epoch: 0, Iteration 14600): 0 yuan
+Input Text (Epoch: 0, Iteration 14800): Thanks for you
+Model Output (Epoch: 0, Iteration 14800): r help
+Input Text (Epoch: 0, Iteration 15000): When you go dinner with John, wh
+Model Output (Epoch: 0, Iteration 15000): at kind of you
+Input Text (Epoch: 0, Iteration 15200): I feel much bet
+Model Output (Epoch: 0, Iteration 15200): ter
+Input Text (Epoch: 0, Iteration 15400): Have you heard when it's suppose
+Model Output (Epoch: 0, Iteration 15400): to be there
+Input Text (Epoch: 0, Iteration 15600): Oh, please sit down. What university d
+Model Output (Epoch: 0, Iteration 15600): o you have in your class
+Input Text (Epoch: 0, Iteration 15800): Can you eat t
+Model Output (Epoch: 0, Iteration 15800): oo well
+Input Text (Epoch: 0, Iteration 16000): Who was the di
+Model Output (Epoch: 0, Iteration 16000): dy, Miss
+Input Text (Epoch: 0, Iteration 16200): It is not an easy job. The government is working on it. Lots of trees have been planted in the north of the capital. Also, methods of generating rain are being used by the government to fight against the
+Model Output (Epoch: 0, Iteration 16200): st. They are also able to make it even more convenient. It's the most important thing in the world
+Input Text (Epoch: 0, Iteration 16400): What sort of pest are we
+Model Output (Epoch: 0, Iteration 16400): going to have
+Input Text (Epoch: 0, Iteration 16600): I'd love
+Model Output (Epoch: 0, Iteration 16600): to
+Input Text (Epoch: 0, Iteration 16800): This broth is wonderful.
+Model Output (Epoch: 0, Iteration 16800): It's a good
+Input Text (Epoch: 0, Iteration 17000): I think she is really going to like
+Model Output (Epoch: 0, Iteration 17000): a robbery
+Input Text (Epoch: 0, Iteration 17200): Her line is through now, pl
+Model Output (Epoch: 0, Iteration 17200): ease
+Epoch: 0, Training Loss: 0.040807611565705726, Validation Loss: 0.03399545167563537
+Checkpoint saved at 'models/T5_chat_ac_epoch_0.pth'
+Input Text (Epoch: 1, Iteration 0): Wait
+Model Output (Epoch: 1, Iteration 0): er
+Input Text (Epoch: 1, Iteration 200): I wonder if there was
+Model Output (Epoch: 1, Iteration 200): a problem
+Input Text (Epoch: 1, Iteration 400): You ’ re just 4 mao short for the hard sleeper, but I ’ ll
+Model Output (Epoch: 1, Iteration 400): have to go to the gym
+Input Text (Epoch: 1, Iteration 600): About fifteen
+Model Output (Epoch: 1, Iteration 600): minutes
+Input Text (Epoch: 1, Iteration 800): Have you ever had garli
+Model Output (Epoch: 1, Iteration 800): ng, too
+Input Text (Epoch: 1, Iteration 1000): It runs every 15 minutes. You mus
+Model Output (Epoch: 1, Iteration 1000): t be able to do that
+Input Text (Epoch: 1, Iteration 1200): It doesn't seem to b
+Model Output (Epoch: 1, Iteration 1200): e a good fit
+Input Text (Epoch: 1, Iteration 1400): Are you se
+Model Output (Epoch: 1, Iteration 1400): rious
+Input Text (Epoch: 1, Iteration 1600): Everybody, I'd like to propose a toast to Mary Johnson, Teacher of the Year. She worked
+Model Output (Epoch: 1, Iteration 1600): a lot of great. I think you'll do well
+Input Text (Epoch: 1, Iteration 1800): Yes. I ’ ll take four shoulder chops and I ’
+Model Output (Epoch: 1, Iteration 1800): ll have to take a bag
+Input Text (Epoch: 1, Iteration 2000): Well, Ted, this is a very impressive resume. However, we do have several other applicants to finish interviewing before we can make a
+Model Output (Epoch: 1, Iteration 2000): n interview. Is this position for you? I think we'll be a good candidate
+Input Text (Epoch: 1, Iteration 2200): Oh, I just can't
+Model Output (Epoch: 1, Iteration 2200): do it
+Input Text (Epoch: 1, Iteration 2400): What kinds of workshops are avai
+Model Output (Epoch: 1, Iteration 2400): able for the job
+Input Text (Epoch: 1, Iteration 2600): It was for my Mas
+Model Output (Epoch: 1, Iteration 2600): ketch-Man
+Input Text (Epoch: 1, Iteration 2800): In 1978. I went to co
+Model Output (Epoch: 1, Iteration 2800): nnect to you
+Input Text (Epoch: 1, Iteration 3000): But they wouldn't lay you off! You are the most experienced
+Model Output (Epoch: 1, Iteration 3000): person in the field
+Input Text (Epoch: 1, Iteration 3200): True. T
+Model Output (Epoch: 1, Iteration 3200): hanks
+Input Text (Epoch: 1, Iteration 3400): Oh really what ’ s
+Model Output (Epoch: 1, Iteration 3400): that
+Input Text (Epoch: 1, Iteration 3600): How often do you pl
+Model Output (Epoch: 1, Iteration 3600): ay to work
+Input Text (Epoch: 1, Iteration 3800): Just name it
+Model Output (Epoch: 1, Iteration 3800): , please
+Input Text (Epoch: 1, Iteration 4000): Isn't this the
+Model Output (Epoch: 1, Iteration 4000): re any
+Input Text (Epoch: 1, Iteration 4200): once in a while, I suppose, I usually rent
+Model Output (Epoch: 1, Iteration 4200): a house for a month
+Input Text (Epoch: 1, Iteration 4400): Um...
+Model Output (Epoch: 1, Iteration 4400): ...
+Input Text (Epoch: 1, Iteration 4600): Thanks for c
+Model Output (Epoch: 1, Iteration 4600): ool
+Input Text (Epoch: 1, Iteration 4800): I appreciate you t
+Model Output (Epoch: 1, Iteration 4800): he compliment
+Input Text (Epoch: 1, Iteration 5000): No. I'm thinking that maybe I can get
+Model Output (Epoch: 1, Iteration 5000): a new card for you
+Input Text (Epoch: 1, Iteration 5200): Nothi
+Model Output (Epoch: 1, Iteration 5200): ng
+Input Text (Epoch: 1, Iteration 5400): Really? How
+Model Output (Epoch: 1, Iteration 5400): is it
+Input Text (Epoch: 1, Iteration 5600): Who is going to look after a
+Model Output (Epoch: 1, Iteration 5600): nything else
+Input Text (Epoch: 1, Iteration 5800): After I tried French food. Before that, I used to cook real
+Model Output (Epoch: 1, Iteration 5800): ly good Chinese food
+Input Text (Epoch: 1, Iteration 6000): Oh, no. We just did i
+Model Output (Epoch: 1, Iteration 6000): t in a hurry
+Input Text (Epoch: 1, Iteration 6200): Oh, dear! There isn't a prob
+Model Output (Epoch: 1, Iteration 6200): lem with that
+Input Text (Epoch: 1, Iteration 6400): I teach En
+Model Output (Epoch: 1, Iteration 6400): glish
+Input Text (Epoch: 1, Iteration 6600): At 2 PM, give a presentation here with the press. At four o ’ clock sharp, have
+Model Output (Epoch: 1, Iteration 6600): a look at the clock. It ’ s a good idea
+Input Text (Epoch: 1, Iteration 6800): It is in mine too.The biggest issue is water. The climate is dry and so
+Model Output (Epoch: 1, Iteration 6800): rry, the water is a problem for me
+Input Text (Epoch: 1, Iteration 7000): You have never gone to the Statue of Liberty?! I can't b
+Model Output (Epoch: 1, Iteration 7000): elieve the ads. I'm afraid
+Input Text (Epoch: 1, Iteration 7200): Let me show you to the cashier's. It'
+Model Output (Epoch: 1, Iteration 7200): s my birthday gift
+Input Text (Epoch: 1, Iteration 7400): Did you vote f
+Model Output (Epoch: 1, Iteration 7400): orm today
+Input Text (Epoch: 1, Iteration 7600): Maybe you should try to quit smoking. You know it i
+Model Output (Epoch: 1, Iteration 7600): s a good idea for you
+Input Text (Epoch: 1, Iteration 7800): Can I help you with an
+Model Output (Epoch: 1, Iteration 7800): ything else
+Input Text (Epoch: 1, Iteration 8000): I don't entirely agre
+Model Output (Epoch: 1, Iteration 8000): ee..
+Input Text (Epoch: 1, Iteration 8200): really? Are you sure this i
+Model Output (Epoch: 1, Iteration 8200): t is a good one
+Input Text (Epoch: 1, Iteration 8400): Wh
+Model Output (Epoch: 1, Iteration 8400): y
+Input Text (Epoch: 1, Iteration 8600): Don't be that n
+Model Output (Epoch: 1, Iteration 8600): ew, Tom
+Input Text (Epoch: 1, Iteration 8800): You'd better prepare what you are going to say in advance, in order to hav
+Model Output (Epoch: 1, Iteration 8800): e a good time in your career
+Input Text (Epoch: 1, Iteration 9000): So you guys should be
+Model Output (Epoch: 1, Iteration 9000): a bit older
+Input Text (Epoch: 1, Iteration 9200): Let's make sure we are on the same page. Do we want a f
+Model Output (Epoch: 1, Iteration 9200): ew - - - - piece, or a double bed
+Input Text (Epoch: 1, Iteration 9400): I knew some day I would be able to profit
+Model Output (Epoch: 1, Iteration 9400): from the company
+Input Text (Epoch: 1, Iteration 9600): Alright.
+Model Output (Epoch: 1, Iteration 9600): Bye
+Input Text (Epoch: 1, Iteration 9800): There are three in my family, my parents and myself. My father is a
+Model Output (Epoch: 1, Iteration 9800): ny of my parents. I ’ m a child
+Input Text (Epoch: 1, Iteration 10000): Sure, you can, but you ’ ll be
+Model Output (Epoch: 1, Iteration 10000): a bit nervous
+Input Text (Epoch: 1, Iteration 10200): Yes, can I he
+Model Output (Epoch: 1, Iteration 10200): lp you
+Input Text (Epoch: 1, Iteration 10400): Don't worry, time
+Model Output (Epoch: 1, Iteration 10400): is not good
+Input Text (Epoch: 1, Iteration 10600): All right, al
+Model Output (Epoch: 1, Iteration 10600): l right
+Input Text (Epoch: 1, Iteration 10800): You can list your education at the top, or choose your job experience t
+Model Output (Epoch: 1, Iteration 10800): o get a job that you can do
+Input Text (Epoch: 1, Iteration 11000): Maybe I'll also have a try some day, but I'm afraid that it would b
+Model Output (Epoch: 1, Iteration 11000): e difficult to get a good job
+Input Text (Epoch: 1, Iteration 11200): Excuse me. I bought this just now and here's a receipt. I'm afraid I was s
+Model Output (Epoch: 1, Iteration 11200): o excited for the wrong price
+Input Text (Epoch: 1, Iteration 11400): Can I help in
+Model Output (Epoch: 1, Iteration 11400): a while
+Input Text (Epoch: 1, Iteration 11600): I was wondering if you guys also
+Model Output (Epoch: 1, Iteration 11600): get a divorce
+Input Text (Epoch: 1, Iteration 11800): Sure. Here
+Model Output (Epoch: 1, Iteration 11800): you are
+Input Text (Epoch: 1, Iteration 12000): Oh, it ’ s not you. I just wa
+Model Output (Epoch: 1, Iteration 12000): nt to do it myself
+Input Text (Epoch: 1, Iteration 12200): Yes, I think so.Flight KL638 is still at the airp
+Model Output (Epoch: 1, Iteration 12200): e. Is that a good thing
+Input Text (Epoch: 1, Iteration 12400): Yes, I
+Model Output (Epoch: 1, Iteration 12400): see
+Input Text (Epoch: 1, Iteration 12600): This is awkward, I know. I know you're upset. But in tw
+Model Output (Epoch: 1, Iteration 12600): o days, you'll be fine
+Input Text (Epoch: 1, Iteration 12800): Inbreeding is a big drawback from snitching most of their empl
+Model Output (Epoch: 1, Iteration 12800): e. I'm very sorry for them
+Input Text (Epoch: 1, Iteration 13000): Maybe just a quick sandwich, sala
+Model Output (Epoch: 1, Iteration 13000): ne or a sandwich
+Input Text (Epoch: 1, Iteration 13200): I'm sorry, sir. Just hold the line, please. Now the line
+Model Output (Epoch: 1, Iteration 13200): is on the right. It's on the right
+Input Text (Epoch: 1, Iteration 13400): That's good to know. We'll watch
+Model Output (Epoch: 1, Iteration 13400): the movie first
+Input Text (Epoch: 1, Iteration 13600): yes, that's my only day off
+Model Output (Epoch: 1, Iteration 13600): the bus
+Input Text (Epoch: 1, Iteration 13800): Oh yes, I loved it. Wasn't the scene w
+Model Output (Epoch: 1, Iteration 13800): ith the movie star
+Input Text (Epoch: 1, Iteration 14000): May I order some cable fr
+Model Output (Epoch: 1, Iteration 14000): om the station
+Input Text (Epoch: 1, Iteration 14200): Yes I am. Nice to meet
+Model Output (Epoch: 1, Iteration 14200): you, Miss
+Input Text (Epoch: 1, Iteration 14400): Then you may know that it
+Model Output (Epoch: 1, Iteration 14400): 's not bad
+Input Text (Epoch: 1, Iteration 14600): Deutsche Bank. It was 25,0
+Model Output (Epoch: 1, Iteration 14600): 0, 000 RIB
+Input Text (Epoch: 1, Iteration 14800): Thanks for you
+Model Output (Epoch: 1, Iteration 14800): r help
+Input Text (Epoch: 1, Iteration 15000): When you go dinner with John, wh
+Model Output (Epoch: 1, Iteration 15000): at do you do
+Input Text (Epoch: 1, Iteration 15200): I feel much bet
+Model Output (Epoch: 1, Iteration 15200): ter now
+Input Text (Epoch: 1, Iteration 15400): Have you heard when it's suppose
+Model Output (Epoch: 1, Iteration 15400): d to be late
+Input Text (Epoch: 1, Iteration 15600): Oh, please sit down. What university d
+Model Output (Epoch: 1, Iteration 15600): o you have any other questions
+Input Text (Epoch: 1, Iteration 15800): Can you eat t
+Model Output (Epoch: 1, Iteration 15800): he cake
+Input Text (Epoch: 1, Iteration 16000): Who was the di
+Model Output (Epoch: 1, Iteration 16000): nner
+Input Text (Epoch: 1, Iteration 16200): It is not an easy job. The government is working on it. Lots of trees have been planted in the north of the capital. Also, methods of generating rain are being used by the government to fight against the
+Model Output (Epoch: 1, Iteration 16200): damage of the earthquake. It ’ s a very good if the rain, but also causes a sleeve
+Input Text (Epoch: 1, Iteration 16400): What sort of pest are we
+Model Output (Epoch: 1, Iteration 16400): lcome from
+Input Text (Epoch: 1, Iteration 16600): I'd love
+Model Output (Epoch: 1, Iteration 16600): to
+Input Text (Epoch: 1, Iteration 16800): This broth is wonderful.
+Model Output (Epoch: 1, Iteration 16800): Thank you
+Input Text (Epoch: 1, Iteration 17000): I think she is really going to like
+Model Output (Epoch: 1, Iteration 17000): the next few days
+Input Text (Epoch: 1, Iteration 17200): Her line is through now, pl
+Model Output (Epoch: 1, Iteration 17200): ease
+Epoch: 1, Training Loss: 0.031809154878693874, Validation Loss: 0.032851684793575524
+Checkpoint saved at 'models/T5_chat_ac_epoch_1.pth'
+Input Text (Epoch: 2, Iteration 0): Wait
+Model Output (Epoch: 2, Iteration 0): er
+Input Text (Epoch: 2, Iteration 200): I wonder if there was
+Model Output (Epoch: 2, Iteration 200): a problem
+Input Text (Epoch: 2, Iteration 400): You ’ re just 4 mao short for the hard sleeper, but I ’ ll
+Model Output (Epoch: 2, Iteration 400): have to go to the hospital
+Input Text (Epoch: 2, Iteration 600): About fifteen
+Model Output (Epoch: 2, Iteration 600): minutes
+Input Text (Epoch: 2, Iteration 800): Have you ever had garli
+Model Output (Epoch: 2, Iteration 800): es in mind
+Input Text (Epoch: 2, Iteration 1000): It runs every 15 minutes. You mus
+Model Output (Epoch: 2, Iteration 1000): t be a little late
+Input Text (Epoch: 2, Iteration 1200): It doesn't seem to b
+Model Output (Epoch: 2, Iteration 1200): e a problem
+Input Text (Epoch: 2, Iteration 1400): Are you se
+Model Output (Epoch: 2, Iteration 1400): rious
+Input Text (Epoch: 2, Iteration 1600): Everybody, I'd like to propose a toast to Mary Johnson, Teacher of the Year. She worked
+Model Output (Epoch: 2, Iteration 1600): hard on it. I think I'm going to miss her
+Input Text (Epoch: 2, Iteration 1800): Yes. I ’ ll take four shoulder chops and I ’
+Model Output (Epoch: 2, Iteration 1800): m gonna have to take a break
+Input Text (Epoch: 2, Iteration 2000): Well, Ted, this is a very impressive resume. However, we do have several other applicants to finish interviewing before we can make a
+Model Output (Epoch: 2, Iteration 2000): ny further consideration. We can do that if we can do so
+Input Text (Epoch: 2, Iteration 2200): Oh, I just can't
+Model Output (Epoch: 2, Iteration 2200): do it
+Input Text (Epoch: 2, Iteration 2400): What kinds of workshops are avai
+Model Output (Epoch: 2, Iteration 2400): lable in this field
+Input Text (Epoch: 2, Iteration 2600): It was for my Mas
+Model Output (Epoch: 2, Iteration 2600): ter Day
+Input Text (Epoch: 2, Iteration 2800): In 1978. I went to co
+Model Output (Epoch: 2, Iteration 2800): me with you
+Input Text (Epoch: 2, Iteration 3000): But they wouldn't lay you off! You are the most experienced
+Model Output (Epoch: 2, Iteration 3000): -selling company in America
+Input Text (Epoch: 2, Iteration 3200): True. T
+Model Output (Epoch: 2, Iteration 3200): hanks
+Input Text (Epoch: 2, Iteration 3400): Oh really what ’ s
+Model Output (Epoch: 2, Iteration 3400): wrong with it
+Input Text (Epoch: 2, Iteration 3600): How often do you pl
+Model Output (Epoch: 2, Iteration 3600): ay there
+Input Text (Epoch: 2, Iteration 3800): Just name it
+Model Output (Epoch: 2, Iteration 3800): , please
+Input Text (Epoch: 2, Iteration 4000): Isn't this the
+Model Output (Epoch: 2, Iteration 4000): re, sir
+Input Text (Epoch: 2, Iteration 4200): once in a while, I suppose, I usually rent
+Model Output (Epoch: 2, Iteration 4200): a house for two days
+Input Text (Epoch: 2, Iteration 4400): Um...
+Model Output (Epoch: 2, Iteration 4400): no
+Input Text (Epoch: 2, Iteration 4600): Thanks for c
+Model Output (Epoch: 2, Iteration 4600): oming
+Input Text (Epoch: 2, Iteration 4800): I appreciate you t
+Model Output (Epoch: 2, Iteration 4800): he gift
+Input Text (Epoch: 2, Iteration 5000): No. I'm thinking that maybe I can get
+Model Output (Epoch: 2, Iteration 5000): a new computer
+Input Text (Epoch: 2, Iteration 5200): Nothi
+Model Output (Epoch: 2, Iteration 5200): ng
+Input Text (Epoch: 2, Iteration 5400): Really? How
+Model Output (Epoch: 2, Iteration 5400): is it
+Input Text (Epoch: 2, Iteration 5600): Who is going to look after a
+Model Output (Epoch: 2, Iteration 5600): n emergency
+Input Text (Epoch: 2, Iteration 5800): After I tried French food. Before that, I used to cook real
+Model Output (Epoch: 2, Iteration 5800): ly good food and a lot of different stuff
+Input Text (Epoch: 2, Iteration 6000): Oh, no. We just did i
+Model Output (Epoch: 2, Iteration 6000): t last week
+Input Text (Epoch: 2, Iteration 6200): Oh, dear! There isn't a prob
+Model Output (Epoch: 2, Iteration 6200): lem with that
+Input Text (Epoch: 2, Iteration 6400): I teach En
+Model Output (Epoch: 2, Iteration 6400): glish
+Input Text (Epoch: 2, Iteration 6600): At 2 PM, give a presentation here with the press. At four o ’ clock sharp, have
+Model Output (Epoch: 2, Iteration 6600): you a reservation for the press
+Input Text (Epoch: 2, Iteration 6800): It is in mine too.The biggest issue is water. The climate is dry and so
+Model Output (Epoch: 2, Iteration 6800): me water is not in the water, isn't it
+Input Text (Epoch: 2, Iteration 7000): You have never gone to the Statue of Liberty?! I can't b
+Model Output (Epoch: 2, Iteration 7000): elieve it. Is that right
+Input Text (Epoch: 2, Iteration 7200): Let me show you to the cashier's. It'
+Model Output (Epoch: 2, Iteration 7200): s my treat
+Input Text (Epoch: 2, Iteration 7400): Did you vote f
+Model Output (Epoch: 2, Iteration 7400): or Obama
+Input Text (Epoch: 2, Iteration 7600): Maybe you should try to quit smoking. You know it i
+Model Output (Epoch: 2, Iteration 7600): s a good way to relax
+Input Text (Epoch: 2, Iteration 7800): Can I help you with an
+Model Output (Epoch: 2, Iteration 7800): ything today
+Input Text (Epoch: 2, Iteration 8000): I don't entirely agre
+Model Output (Epoch: 2, Iteration 8000): e on it
+Input Text (Epoch: 2, Iteration 8200): really? Are you sure this i
+Model Output (Epoch: 2, Iteration 8200): t's too good
+Input Text (Epoch: 2, Iteration 8400): Wh
+Model Output (Epoch: 2, Iteration 8400): y
+Input Text (Epoch: 2, Iteration 8600): Don't be that n
+Model Output (Epoch: 2, Iteration 8600): ot me
+Input Text (Epoch: 2, Iteration 8800): You'd better prepare what you are going to say in advance, in order to hav
+Model Output (Epoch: 2, Iteration 8800): e your right. I'm sure you'll get the job done
+Input Text (Epoch: 2, Iteration 9000): So you guys should be
+Model Output (Epoch: 2, Iteration 9000): a good cook
+Input Text (Epoch: 2, Iteration 9200): Let's make sure we are on the same page. Do we want a f
+Model Output (Epoch: 2, Iteration 9200): ew, or a tv, or we can have a look
+Input Text (Epoch: 2, Iteration 9400): I knew some day I would be able to profit
+Model Output (Epoch: 2, Iteration 9400): from the slums
+Input Text (Epoch: 2, Iteration 9600): Alright.
+Model Output (Epoch: 2, Iteration 9600): Bye
+Input Text (Epoch: 2, Iteration 9800): There are three in my family, my parents and myself. My father is a
+Model Output (Epoch: 2, Iteration 9800): nd my mother is a teacher
+Input Text (Epoch: 2, Iteration 10000): Sure, you can, but you ’ ll be
+Model Output (Epoch: 2, Iteration 10000): late for the test
+Input Text (Epoch: 2, Iteration 10200): Yes, can I he
+Model Output (Epoch: 2, Iteration 10200): lp you
+Input Text (Epoch: 2, Iteration 10400): Don't worry, time
+Model Output (Epoch: 2, Iteration 10400): , or time
+Input Text (Epoch: 2, Iteration 10600): All right, al
+Model Output (Epoch: 2, Iteration 10600): right
+Input Text (Epoch: 2, Iteration 10800): You can list your education at the top, or choose your job experience t
+Model Output (Epoch: 2, Iteration 10800): o the company, so you can get a raise
+Input Text (Epoch: 2, Iteration 11000): Maybe I'll also have a try some day, but I'm afraid that it would b
+Model Output (Epoch: 2, Iteration 11000): e a little difficult for me
+Input Text (Epoch: 2, Iteration 11200): Excuse me. I bought this just now and here's a receipt. I'm afraid I was s
+Model Output (Epoch: 2, Iteration 11200): o busy. I'm not sure how to get there
+Input Text (Epoch: 2, Iteration 11400): Can I help in
+Model Output (Epoch: 2, Iteration 11400): a minute
+Input Text (Epoch: 2, Iteration 11600): I was wondering if you guys also
+Model Output (Epoch: 2, Iteration 11600): get a divorce
+Input Text (Epoch: 2, Iteration 11800): Sure. Here
+Model Output (Epoch: 2, Iteration 11800): you are
+Input Text (Epoch: 2, Iteration 12000): Oh, it ’ s not you. I just wa
+Model Output (Epoch: 2, Iteration 12000): nt to do it
+Input Text (Epoch: 2, Iteration 12200): Yes, I think so.Flight KL638 is still at the airp
+Model Output (Epoch: 2, Iteration 12200): icture. Is that a problem
+Input Text (Epoch: 2, Iteration 12400): Yes, I
+Model Output (Epoch: 2, Iteration 12400): know
+Input Text (Epoch: 2, Iteration 12600): This is awkward, I know. I know you're upset. But in tw
+Model Output (Epoch: 2, Iteration 12600): o months, you'll have to go
+Input Text (Epoch: 2, Iteration 12800): Inbreeding is a big drawback from snitching most of their empl
+Model Output (Epoch: 2, Iteration 12800): ecias. It's a very difficult job
+Input Text (Epoch: 2, Iteration 13000): Maybe just a quick sandwich, sala
+Model Output (Epoch: 2, Iteration 13000): d, or something
+Input Text (Epoch: 2, Iteration 13200): I'm sorry, sir. Just hold the line, please. Now the line
+Model Output (Epoch: 2, Iteration 13200): isn't, and the other is free
+Input Text (Epoch: 2, Iteration 13400): That's good to know. We'll watch
+Model Output (Epoch: 2, Iteration 13400): the movie first
+Input Text (Epoch: 2, Iteration 13600): yes, that's my only day off
+Model Output (Epoch: 2, Iteration 13600): the bus schedule
+Input Text (Epoch: 2, Iteration 13800): Oh yes, I loved it. Wasn't the scene w
+Model Output (Epoch: 2, Iteration 13800): orking with me
+Input Text (Epoch: 2, Iteration 14000): May I order some cable fr
+Model Output (Epoch: 2, Iteration 14000): om your room
+Input Text (Epoch: 2, Iteration 14200): Yes I am. Nice to meet
+Model Output (Epoch: 2, Iteration 14200): you, too too
+Input Text (Epoch: 2, Iteration 14400): Then you may know that it
+Model Output (Epoch: 2, Iteration 14400): 's a good idea
+Input Text (Epoch: 2, Iteration 14600): Deutsche Bank. It was 25,0
+Model Output (Epoch: 2, Iteration 14600): 0 yuan ago
+Input Text (Epoch: 2, Iteration 14800): Thanks for you
+Model Output (Epoch: 2, Iteration 14800): r help
+Input Text (Epoch: 2, Iteration 15000): When you go dinner with John, wh
+Model Output (Epoch: 2, Iteration 15000): at is your birthday
+Input Text (Epoch: 2, Iteration 15200): I feel much bet
+Model Output (Epoch: 2, Iteration 15200): ter now
+Input Text (Epoch: 2, Iteration 15400): Have you heard when it's suppose
+Model Output (Epoch: 2, Iteration 15400): d to be a lie
+Input Text (Epoch: 2, Iteration 15600): Oh, please sit down. What university d
+Model Output (Epoch: 2, Iteration 15600): o you attend at college
+Input Text (Epoch: 2, Iteration 15800): Can you eat t
+Model Output (Epoch: 2, Iteration 15800): hese
+Input Text (Epoch: 2, Iteration 16000): Who was the di
+Model Output (Epoch: 2, Iteration 16000): nk girl
+Input Text (Epoch: 2, Iteration 16200): It is not an easy job. The government is working on it. Lots of trees have been planted in the north of the capital. Also, methods of generating rain are being used by the government to fight against the
+Model Output (Epoch: 2, Iteration 16200): sandstorms. Then we have to negotiate a deal with the government
+Input Text (Epoch: 2, Iteration 16400): What sort of pest are we
+Model Output (Epoch: 2, Iteration 16400): aving here
+Input Text (Epoch: 2, Iteration 16600): I'd love
+Model Output (Epoch: 2, Iteration 16600): to
+Input Text (Epoch: 2, Iteration 16800): This broth is wonderful.
+Model Output (Epoch: 2, Iteration 16800): Thank you
+Input Text (Epoch: 2, Iteration 17000): I think she is really going to like
+Model Output (Epoch: 2, Iteration 17000): her husband, too
+Input Text (Epoch: 2, Iteration 17200): Her line is through now, pl
+Model Output (Epoch: 2, Iteration 17200): ease wait
+Epoch: 2, Training Loss: 0.028383949551455193, Validation Loss: 0.033094063452393796
+Checkpoint saved at 'models/T5_chat_ac_epoch_2.pth'
