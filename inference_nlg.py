@@ -172,29 +172,30 @@ def main(args):
             
             # Prepare output probabilities list and beam list
             output_probs = []
-            beams = [(decoder_input_ids, 1.0)]
+            beams = [(decoder_input_ids, 1.0, [])]
             
             for _ in range(max_length):
                 new_beams = []
-                for beam_input_ids, beam_prob in beams:
+                for beam_input_ids, beam_prob, beam_probs in beams:
                     # Get logits for the next token
                     outputs = model(input_ids=input_ids, decoder_input_ids=beam_input_ids, return_dict=True)
                     next_token_logits = outputs.logits[:, -1, :]
-
+                    #print("Next logits:", next_token_logits)
                     # Apply log_softmax to get log probabilities
-                    log_probs = log_softmax(next_token_logits, dim=-1)
-
+                    probs = torch.softmax(next_token_logits, dim=-1)
+                    #print("probs:", probs) 
                     # Get top K tokens and their corresponding log probabilities
-                    topk_probs, topk_indices = torch.topk(log_probs, beam_size, dim=-1)
-
+                    topk_probs, topk_indices = torch.topk(probs, beam_size, dim=-1)
+                    #print("topk:", topk_probs)
                     for i in range(beam_size):
                         next_token = topk_indices[0, i].unsqueeze(0)
                         next_token_prob = topk_probs[0, i].item()
-
-                        new_beam_input_ids = torch.cat([beam_input_ids, next_token], dim=1)
+                        #print("beam prob: ", beam_prob)
+                        #print("next beam prob: ", next_token_prob)
+                        new_beam_input_ids = torch.cat([beam_input_ids, next_token.unsqueeze(1)], dim=1)
                         new_beam_prob = beam_prob * next_token_prob
-
-                        new_beams.append((new_beam_input_ids, new_beam_prob))
+                        new_beam_probs = beam_probs + [next_token_prob]
+                        new_beams.append((new_beam_input_ids, new_beam_prob, new_beam_probs))
 
                 # Select top K beams based on their probabilities
                 sorted_beams = sorted(new_beams, key=lambda x: x[1], reverse=True)
@@ -203,16 +204,16 @@ def main(args):
                 # Check if any of the beams generated the end of sequence token
                 eos_beam = next((beam for beam in beams if beam[0][0, -1] == tokenizer.eos_token_id), None)
                 if eos_beam:
-                    decoder_input_ids, _ = eos_beam
+                    decoder_input_ids, _, output_probs = eos_beam
                     break
 
             # Decode the output sequence
             output_text = tokenizer.decode(decoder_input_ids[0], skip_special_tokens=True)
 
             # Calculate the total output probability for the predicted beam
-            total_output_prob = beams[0][1]
+            total_output_probs = beams[0][2]
 
-            return output_text, total_output_prob
+            return output_text, total_output_probs
 
     # Load pre-trained model and tokenizer
 
@@ -243,11 +244,11 @@ def main(args):
                 #print(input_part,"\t", ground_truth, "\t", output_text)
                 
                 # Generate completion and probabilities
-                if args.inference_method is "beam":
+                if args.inference_method ==  "beam":
                     output_text, output_probs = generate_completion_with_beam_search(
                         model, tokenizer, input_part
                     )
-                elif args.inference_method is "top_p":
+                elif args.inference_method ==  "top-p":
                     output_text, output_probs = generate_completion_with_top_p(
                         model, tokenizer, input_part
                     )
@@ -258,7 +259,7 @@ def main(args):
                 # Print the required information
                 print(f"{input_part}\t{ground_truth}\t{output_text}\t{ avg_prob}\t{1}")
                 
-    process_sentences(sentences, model, tokenizer)
+    process_sentences(["today is a good day"], model, tokenizer)
 
 
 if __name__ == "__main__":
