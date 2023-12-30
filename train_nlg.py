@@ -60,6 +60,8 @@ def get_args():
     parser.add_argument('--lr', type=int, default=1e-3)
     parser.add_argument('--val_data', type=str, default=None)
     parser.add_argument('--bs',  type=int, default=4)
+    parser.add_argument('--model_ckpt', type=str, default=None)
+    parser.add_argument('--initial_epoch', type=int, default=0)
     args = parser.parse_args()
     return args
 
@@ -77,7 +79,15 @@ def main(args):
 
     model = T5ForConditionalGeneration.from_pretrained('t5-base')
     tokenizer = T5Tokenizer.from_pretrained('t5-base')
+    
+    # load ckpt if any
+
+    if args.model_ckpt is not None:
+        ckpt = torch.load(args.model_ckpt)
+        model.load_state_dict(ckpt["model_state_dict"])
+    
     model.to(device)
+
     # setup dataloader and optimizer
 
     dataset = AutocompleteDataset(tokenizer, sentences)
@@ -102,7 +112,7 @@ def main(args):
         print("The model directory is created!")
 
     print("STARTING TRAINING")
-    for epoch in range(args.num_epochs):
+    for epoch in range(args.initial_epoch, args.num_epochs):
             # Training phase
             model.train()
             total_train_loss = 0
