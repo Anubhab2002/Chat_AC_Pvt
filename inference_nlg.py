@@ -259,7 +259,7 @@ def main(args):
                 # Print the required information
                 print(f"{input_part}\t{ground_truth}\t{output_text}\t{ avg_prob}\t{1}")
                 
-    process_sentences(["today is a good day"], model, tokenizer)
+    process_sentences(sentences, model, tokenizer)
 
 
 if __name__ == "__main__":
